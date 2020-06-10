@@ -1,4 +1,4 @@
-﻿# Ubuntu 20.04 - RaspberryPi
+﻿# Ubuntu Server 20.04 IoT - RaspberryPi
 
 Tutorial de instalação do Ubuntu Server no RaspberryPi
 
