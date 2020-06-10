@@ -1,6 +1,6 @@
 ﻿# Ubuntu Server 20.04 IoT - RaspberryPi
 
-Tutorial de instalação do Ubuntu Server no RaspberryPi
+## Tutorial de instalação do Ubuntu Server no RaspberryPi
 
 Crie um servidor linux de aplicações para testes e estudos.
 
