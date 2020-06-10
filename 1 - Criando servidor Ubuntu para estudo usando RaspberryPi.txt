@@ -1,0 +1,31 @@
+﻿Criando servidor Ubuntu para estudo usando RaspberryPi
+
+Este documento tem objetivo de descrever a criação de um servidor Ubuntu para estudo, com custo baixo, utilizando o RasberryPi.
+
+Para saber mais sobre o que é o RaspberryPi→ https://olhardigital.com.br/noticia/raspberry-pi-o-que-e-para-que-serve-e-como-comprar/82921
+
+Você poderia usar VMs mas de qualquer maneira estaria alocando recursos de hardware para rodar as VMs.
+
+Com cerca de US$ 80,00 pode-se adquirir um RaspberryPi 3. 
+
+Instalando sistema operacional.
+
+Com seu dispositivo em mãos a primeira coisa a fazer é instalar o sistema operacional. 
+
+O modo mais simples é utilizando o Raspberry Pi Imager, que faz download da imagem e gera o sdcard bootável. Faça download do Raspberry Pi Imager, insira o sdcard no seu computador e execute-o. Selecione o sistema operacional, neste caso Ubuntu. Selecione também o sdcard (atenção para selecionar o dispositivo destino correto pois os dados serão apagados)
+
+https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#2-prepare-the-sd-card
+
+Você pode configurar para acessar wi-fi ao iniciar ou usar porta de rede ethernet (cabo).
+
+https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#3-wifi-or-ethernet
+
+Após decidir como conectar à rede, o próximo passo é inserir o sdcard no RaspberryPi, ligar o dispositivo, e acessa-lo remotamente via ssh. Se não conseguir conectar via wi-fi conecte via cabo e deixe para configurar o wi-fi depois. Ou se preferir pode conectar monitor e teclado e acessar tradicionalmente neste primeiro boot. A senha inicial é ubuntu que deve ser trocada no primeiro login.
+
+https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#4-boot-ubuntu-server
+
+Seu servidor Ubuntu já está no ar!!!! Você não precisará mais de monitor e teclado para configurar e acessar as aplicações no servidor. Tudo poderá ser feito remotamente. Basta ligar o RasberryPi na tomada e acessar via ssh executando “ssh ubuntu@ip_do_servidor”. 
+Para desligar digite no terminal “sudo shutdown -P now”, aguarde cerca de 1 minuto e desligue o RaspberryPi da tomada.
+
+
+
