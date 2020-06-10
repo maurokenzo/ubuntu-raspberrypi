@@ -1,4 +1,4 @@
-﻿Ubuntu 20.04 - RaspberryPi
+﻿# Ubuntu 20.04 - RaspberryPi
 
 Tutorial de instalação do Ubuntu Server no RaspberryPi
 
@@ -8,7 +8,9 @@ Vantagens: baixo custo, baixo consumo energético.
 
 Baixe os procedimentos (.pdf) e faça o passo a passo.
 
-
+# 
+# 
+# 
 
 
 Referências
